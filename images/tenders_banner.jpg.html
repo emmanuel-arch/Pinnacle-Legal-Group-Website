@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Mazi Mobility</title>
+    <link rel="stylesheet" href="https://www.mazimobility.com/images/css/main.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://www.mazimobility.com/images/images/mazi_logo.png" type="image/x-icon">
+    <!-- Raleway Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+</head>
+
+<body class="font-raleway select-none">
+
+    <!-- Header Section -->
+    <header id="header" class="sticky bg-white/90 left-0 top-0 z-50 w-full backdrop-blur">
+        <div class="mx-auto h-20 md:h-16 max-w-7xl px-8 md:px-6">
+            <div class="relative flex h-full items-center justify-between brder-b border-slate-500/10">
+                <!-- Logo -->
+                <div class="w-60 max-w-full flex">
+                    <!-- Logo img -->
+                    <a href="https://www.mazimobility.com/images/index.html">
+                        <img src="https://www.mazimobility.com/images/images/mazi_logo.png" alt="logo" class="w-full max-w-8">
+                    </a>
+                    <!-- Logo text -->
+                    <span class="text-2xl font-bold pl-2 text-companyPrimary">Mazi
+                        <span class="text-companySecondary">Mobility</span>
+                    </span>
+                </div>
+
+                <!-- Main nav -->
+                <div>
+                    <!-- Nav items -->
+                    <ul x-transition
+                        class="hidden md:flex space-x-6 text-companyPrimary font-bold text-sm uppercase relative">
+                        <li class="text-companySecondary">
+                            <a href="https://www.mazimobility.com/images/index.html">Home</a>
+                        </li>
+                        <li class="hover:text-companySecondary">
+                            <a href="https://www.mazimobility.com/images/product.html">Product</a>
+                        </li>
+                        <li class="hover:text-companySecondary">
+                            <a href="https://www.mazimobility.com/images/about.html">About</a>
+                        </li>
+                        <li class="hover:text-companySecondary">
+                            <a href="https://www.mazimobility.com/images/blog.html">Blog</a>
+                        </li>
+                        <li class="hover:text-companySecondary">
+                            <a href="https://www.mazimobility.com/images/careers.html">Careers</a>
+                        </li>
+                        <li class="hover:text-companySecondary">
+                            <a href="https://www.mazimobility.com/images/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Hamburger Icon -->
+                <button id="hamburger"
+                    class="block cursor-pointer relative w-8 h-4 md:hidden focus:outline-none outline-none transition-all">
+                    <span class="absolute hamburger-top w-6 h-0.5 top-0 left-0 bg-companySecondary rounded-full"></span>
+                    <span
+                        class="absolute hamburger-middle w-6 h-0.5 top-0 left-0 bg-companySecondary rounded-full"></span>
+                    <span
+                        class="absolute hamburger-bottom w-6 h-0.5 top-0 left-0 bg-companySecondary rounded-full"></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+            <ul id="menu"
+                class="absolute flex-col items-end hidden self-end px-10 py-8 space-y-6 font-bold bg-white/90 text-companyPrimary sm:w-auto sm:self-center left-0 right-0 drop-shadow-md border-t border-gray-300">
+                <li>
+                    <a href="https://www.mazimobility.com/images/index.html" class="text-companySecondary">Home</a>
+                </li>
+                <li>
+                    <a href="https://www.mazimobility.com/images/product.html" class="hover:text-companySecondary">Product</a>
+                </li>
+                <li>
+                    <a href="https://www.mazimobility.com/images/about.html" class="hover:text-companySecondary">About</a>
+                </li>
+                <li>
+                    <a href="https://www.mazimobility.com/images/blog.html" class="hover:text-companySecondary">Blog</a>
+                </li>
+                <li>
+                    <a href="https://www.mazimobility.com/images/careers.html" class="hover:text-companySecondary">Careers</a>
+                </li>
+                <li>
+                    <a href="https://www.mazimobility.com/images/contact.html" class="hover:text-companySecondary">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="sliderAx">
+
+            <div id="slider-1">
+                <div class="top-0 bottom-0 absolute w-full h-screen flex items-center justify-center bg-companyPrimary bg-cover bg-center"
+                    style="background-image: url('https://www.mazimobility.com/images/images/home_banner_1.jpg'); box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.6);">
+                    <div class="flex flex-col items-center justify-center my-8 text-center">
+                        <h1
+                            class="text-white px-8 mb-3 text-4xl font-bold leading-snug sm:text-[32px] lg:text-[42px] xl:text-[44px]">
+                            Welcome to <br class="md:hidden"><span class="text-white">Mazi </span><span
+                                class="text-companySecondary">Mobility</span>
+                        </h1>
+                        <p class="text-slate-300 mb-8 max-w-[480px] text-xl lg:text-2xl font-semibold">Switch to
+                            Electric Today
+                        </p>
+                        <!-- Banner button -->
+                        <a href="https://www.mazimobility.com/images/product.html#process">
+                            <button
+                                class="w-full rounded-md bg-companySecondary hover:bg-companySecondary/80 hover:scale-95 px-8 py-2.5 font-semibold text-white duration-200 sm:w-auto">
+                                How It Works
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slider-2">
+                <div class="top-0 bottom-0 absolute w-full h-screen flex items-center justify-center bg-companyPrimary bg-cover bg-center"
+                    style="background-image: url('https://www.mazimobility.com/images/images/home_banner_2.jpg'); box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.6);">
+                    <div class="flex flex-col items-center justify-center my-8 text-center">
+                        <h1
+                            class="text-white px-8 mb-3 text-4xl font-bold leading-snug sm:text-[32px] lg:text-[42px] xl:text-[44px]">
+                            Welcome to <br class="md:hidden"><span class="text-white">Mazi </span><span
+                                class="text-companySecondary">Mobility</span>
+                        </h1>
+                        <p class="text-slate-300 mb-8 max-w-[480px] text-xl lg:text-2xl font-semibold">Switch to
+                            Electric Today
+                        </p>
+                        <!-- Banner button -->
+                        <a href="https://www.mazimobility.com/images/product.html#process">
+                            <button
+                                class="w-full rounded-md bg-companySecondary hover:bg-companySecondary/80 hover:scale-95 px-8 py-2.5 font-semibold text-white duration-200 sm:w-auto">
+                                How It Works
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slider-3">
+                <div class="top-0 bottom-0 absolute w-full h-screen flex items-center justify-center bg-companyPrimary bg-cover bg-center"
+                    style="background-image: url('https://www.mazimobility.com/images/images/home_banner_3.jpg'); box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.6);">
+                    <div class="flex flex-col items-center justify-center my-8 text-center">
+                        <h1
+                            class="text-white px-8 mb-3 text-4xl font-bold leading-snug sm:text-[32px] lg:text-[42px] xl:text-[44px]">
+                            Welcome to <br class="md:hidden"><span class="text-white">Mazi </span><span
+                                class="text-companySecondary">Mobility</span>
+                        </h1>
+                        <p class="text-slate-300 mb-8 max-w-[480px] text-xl lg:text-2xl font-semibold">Switch to
+                            Electric Today
+                        </p>
+                        <!-- Banner button -->
+                        <a href="https://www.mazimobility.com/images/product.html#process">
+                            <button
+                                class="w-full rounded-md bg-companySecondary hover:bg-companySecondary/80 hover:scale-95 px-8 py-2.5 font-semibold text-white duration-200 sm:w-auto">
+                                How It Works
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex items-center justify-center">
+                <div class="gap-2 absolute bottom-0">
+                    <button id="sButton1" class="rounded-full px-5 py-0.5 mb-3 opacity-75 cursor-default">
+                    </button>
+                    <button id="sButton2" class="rounded-full px-5 py-0.5 mb-3 opacity-75 cursor-default">
+                    </button>
+                    <button id="sButton3" class="rounded-full px-5 py-0.5 mb-3 opacity-75 cursor-default">
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- END Hero Section -->
+
+    <!-- Offers Section -->
+    <section id="offers" class="py-8 md:py-16 mt-[90vh]">
+        <div class="mx-auto max-w-7xl px-8 md:px-6">
+            <div class="md:flex md:justify-between md:gap-6 text-center">
+                <div class="md:w-full">
+                    <!-- Heading text -->
+                    <div class="mb-5 sm:mb-10">
+                        <!-- Intro text -->
+                        <span class="font-medium text-companySecondary">What We Offer</span>
+                        <h1 class="text-2xl font-bold text-slate-700 sm:text-3xl">Swapping Stations
+                        </h1>
+                    </div>
+
+                    <div class="mb-5 sm:mb-10 text-center">
+                        <p class="mx-auto w-full md:w-2/3 px-8 text-md text-slate-500">Our cutting-edge swapping station
+                            infrastructure
+                            offers a convenient
+                            and eco-friendly solution for electric motorcycle charging.</p>
+                    </div>
+
+                    <!-- 'Find a Swapping Station' button -->
+                    <a href="tenders_banner.jpg.html">
+                        <button
+                            class="w-full rounded-md bg-white border-2 border-companyPrimary hover:border-companySecondary hover:scale-95 px-8 py-2.5 font-semibold text-companyPrimary hover:text-companySecondary duration-200 md:w-max">Find
+                            a Swapping Station
+                        </button>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End offers Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="py-8 md:py-16 bg-slate-100">
+        <div class="mx-auto max-w-7xl px-8 md:px-6">
+            <!-- Services intro text -->
+            <div class="mb-5 sm:mb-10 text-center">
+                <span class="font-medium text-companySecondary">Why Us?</span>
+                <h1 class="text-2xl font-bold text-slate-700 sm:text-3xl">Why Choose Mazi Mobility?
+                </h1>
+            </div>
+
+            <div class="mb-5 sm:mb-10 text-center">
+                <p class="mx-auto w-full md:w-2/3 px-8 text-md text-slate-500">Our goal is to equip e-mobility
+                    operators with reliable and affordable on-demand batteries, as we drive the transition from petrol
+                    to electric and create a smarter, cleaner, and more efficient network of shared mobility.</p>
+                <p class="mx-auto w-full md:w-2/3 px-8 mt-2 text-md text-slate-500">We are proudly working to power
+                    Africans into an
+                    electrified future!</p>
+            </div>
+
+            <!-- Services box wrapper -->
+            <div class="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:gap-8">
+                <!-- Box 1 -->
+                <div
+                    class="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/5 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-companyPrimary hover:scale-105">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor"
+                        class="bi bi-speedometer2 text-[55px] text-companySecondary duration-200" viewBox="0 0 16 16">
+                        <path
+                            d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4M3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707M2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10m9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5m.754-4.246a.39.39 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.39.39 0 0 0-.029-.518z" />
+                        <path fill-rule="evenodd"
+                            d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A8 8 0 0 1 0 10m8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3" />
+                    </svg>
+                    <h4 class="mt-3 mb-1 text-lg font-semibold text-slate-600 duration-200 group-hover:text-white">
+                        Fast and convenient</h4>
+                    <p class="text-center text-sm text-slate-500 duration-200 group-hover:text-blue-200">
+                        Swap your EV battery in &lt;2 minutes at our strategically located stations across Nairobi.</p>
+                </div>
+                <!-- Box 2 -->
+                <div
+                    class="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/5 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-companyPrimary hover:scale-105">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" class="ionicon text-companySecondary"
+                        viewBox="0 0 512 512">
+                        <path
+                            d="M321.89 171.42C233 114 141 155.22 56 65.22c-19.8-21-8.3 235.5 98.1 332.7 77.79 71 197.9 63.08 238.4-5.92s18.28-163.17-70.61-220.58zM173 253c86 81 175 129 292 147"
+                            fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="32" />
+                    </svg>
+                    <h4 class="mt-3 mb-1 text-lg font-semibold text-slate-600 duration-200 group-hover:text-white">
+                        Sustainable</h4>
+                    <p class="text-center text-sm text-slate-500 duration-200 group-hover:text-blue-200">
+                        Reduce carbon emissions and promote green energy with our eco-friendly battery solutions.</p>
+                </div>
+                <!-- Box 3 -->
+                <div
+                    class="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/5 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-companyPrimary hover:scale-105">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor"
+                        class="bi bi-key text-companySecondary duration-200 rotate-45" viewBox="0 0 16 16">
+                        <path
+                            d="M0 8a4 4 0 0 1 7.465-2H14a.5.5 0 0 1 .354.146l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0L13 9.207l-.646.647a.5.5 0 0 1-.708 0L11 9.207l-.646.647a.5.5 0 0 1-.708 0L9 9.207l-.646.647A.5.5 0 0 1 8 10h-.535A4 4 0 0 1 0 8m4-3a3 3 0 1 0 2.712 4.285A.5.5 0 0 1 7.163 9h.63l.853-.854a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.793-.793-1-1h-6.63a.5.5 0 0 1-.451-.285A3 3 0 0 0 4 5" />
+                        <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                    </svg>
+                    <h4 class="mt-3 mb-1 text-lg font-semibold text-slate-600 duration-200 group-hover:text-white">
+                        Accessible</h4>
+                    <p class="text-center text-sm text-slate-500 duration-200 group-hover:text-blue-200">
+                        Extensive network of swapping stations to ensure you're never far from a recharge, regardless of
+                        who manufactured your motorcycle.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Services Section -->
+
+    <!-- Footer Section -->
+    <footer id="footer" class="flex justify-center w-full bg-companyPrimary px-6 py-6">
+        <div class="w-full mt-12 mx-auto max-w-7xl px-8 md:px-6">
+            <div class="flex flex-col md:flex-row text-center md:text-left">
+                <!-- Footer intro -->
+                <div
+                    class="flex flex-col items-center md:items-start w-full md:w-2/5 border-b pb-8 md:pb-0 md:border-none border-gray-600">
+                    <a href="tenders_banner.jpg.html#" class="max-w-24 pl-4 md:pl-0">
+                        <img src="https://www.mazimobility.com/images/images/mazi_mobility_footer_logo.png" alt="">
+                    </a>
+                    <p class="mt-2 text-2xl font-light text-blue-200">#TwendeKaziNaMazi</p>
+                    <span class="hidden md:block my-14"><span />
+                </div>
+
+                <!-- Important Links -->
+                <div class="flex flex-col w-full md:w-1/5 md:ml-8">
+                    <p class="mt-6 mb-2 md:mt-0 text-md text-gray-200 uppercase font-bold">Links</p>
+                    <div class="w-auto mt-2">
+                        <a href="https://www.mazimobility.com/images/product.html#process"
+                            class="text-sm font-light text-gray-400 hover:text-companySecondary">How It
+                            Works</a>
+                    </div>
+                    <div class="w-auto mt-2">
+                        <a href="https://www.mazimobility.com/images/about.html#faqs"
+                            class="text-sm font-light text-gray-400 hover:text-companySecondary">FAQs</a>
+                    </div>
+                    <div class="w-auto mt-2">
+                        <a href="https://www.mazimobility.com/images/tenders.html"
+                            class="text-sm font-light text-gray-400 hover:text-companySecondary">Tenders</a>
+                    </div>
+                    <div class="w-auto mt-2">
+                        <a href="https://www.mazimobility.com/images/sitemap.html"
+                            class="text-sm font-light text-gray-400 hover:text-companySecondary">Sitemap</a>
+                    </div>
+                </div>
+
+                <!-- Legal links -->
+                <div class="flex flex-col w-full md:w-1/5 md:ml-8">
+                    <p class="mt-6 mb-2 md:mt-0 text-md text-gray-200 uppercase font-bold">Legal</p>
+                    <div class="w-auto mt-2">
+                        <a href="https://www.mazimobility.com/images/privacy-policy.html" target="_blank"
+                            class="text-sm font-light text-gray-400 hover:text-companySecondary">Privacy Policy</a>
+                    </div>
+                    <div class="w-auto mt-2">
+                        <a href="https://www.mazimobility.com/images/terms-of-service.html" target="_blank"
+                            class="text-sm font-light text-gray-400 hover:text-companySecondary">Terms of Service</a>
+                    </div>
+                    <div class="w-auto mt-2">
+                        <a href="https://www.mazimobility.com/images/ethical-policy.html" target="_blank"
+                            class="text-sm font-light text-gray-400 hover:text-companySecondary">Ethical Policy</a>
+                    </div>
+                </div>
+
+                <!-- Contact us footer -->
+                <div class="flex flex-col w-full md:w-1/5 md:ml-8">
+                    <p class="mt-6 mb-2 md:mt-0 text-md text-gray-200 uppercase font-bold">Contact Us</p>
+                    <!-- Location footer -->
+                    <div class="w-auto mt-2">
+                        <p class="text-sm font-light text-gray-400">
+                            11 Commercial Street, Industrial Area
+                        </p>
+                        <p class="text-sm font-light text-gray-400">
+                            Opposite the National Industrial Training Authority (NITA)
+                        </p>
+                        <p class="text-sm font-light text-gray-400">
+                            Nairobi, Kenya
+                        </p>
+                    </div>
+                    <!-- Phone + E-mail -->
+                    <div class="w-auto mt-2">
+                        <p class="text-sm font-light text-gray-400">
+                            <span class="font-bold">Phone: </span>
+                            <span class="select-text">+254 742 019 778</span>
+                        </p>
+                        <p class="text-sm font-light text-gray-400">
+                            <span class="font-bold">Email: </span>
+                            <span class="select-text"><a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="90f9fef6ffd0fdf1eaf9fdfff2f9fcf9e4e9bef3fffd">[email&#160;protected]</a></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Social links -->
+            <div
+                class="mt-6 flex flex-col md:flex-row items-center justify-between pt-4 w-full border-t border-gray-600">
+                <div class="flex text-gray-400 space-x-3">
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/Mazimobility" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-facebook hover:text-facebook duration-300" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                        </svg>
+                    </a>
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/mazimobility" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-instagram hover:text-instagram duration-300" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg>
+                    </a>
+                    <!-- X/Twitter -->
+                    <a href="https://www.x.com/mazimobility" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-twitter-x hover:text-twitter duration-300" viewBox="0 0 16 16">
+                            <path
+                                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                        </svg>
+                    </a>
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/company/mazimobility" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-linkedin hover:text-linkedin duration-300" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                        </svg>
+                    </a>
+                </div>
+                <!-- Footer sign-off -->
+                <div class="flex flex-col md:flex-row text-center text-gray-500">
+                    <p class="mt-4 md:mt-0 ml-2 text-sm font-light">Copyright &copy;
+                        <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script>
+                        <span>
+                            <Span class="text-companySecondary">Mazi Mobility</Span>.
+                            All rights reserved.
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <!-- Main scripts -->
+    <script src="https://www.mazimobility.com/images/js/script.js"></script>
+
+</body>
+
+</html>
