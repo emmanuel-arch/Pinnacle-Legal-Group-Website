@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Mazi Mobility</title>
+    <title>Home - Pinnacle Legal Group  </title>
     <link rel="stylesheet" href="css/main.css">
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/itothyalogo.png" type="image/x-icon">
@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 </head>
 
 <body class="font-raleway select-none">
@@ -29,8 +30,8 @@
                         <img src="images/itothyalogo.png" alt="logo" class="w-full max-w-8">
                     </a>
                     <!-- Logo text -->
-                    <span class="text-2xl font-bold pl-2 text-companyPrimary">Itothya
-                        <span class="text-companySecondary">Agencies</span>
+                    <span class="text-2xl font-bold pl-2 text-companyPrimary">PLG -  
+                        <span class="text-companySecondary">Advocacy</span>
                     </span>
                 </div>
 
@@ -39,15 +40,21 @@
                     <!-- Nav items -->
                     <ul x-transition
                         class="hidden md:flex space-x-6 text-companyPrimary font-bold text-sm uppercase relative">
-                        <li class="hover:text-companySecondary">
+                        <li class="text-companySecondary">
                             <a href="index.html">Home</a>
                         </li>
                         
                         <li class="hover:text-companySecondary">
                             <a href="about.html">About</a>
                         </li>
+                        <li class="hover:text-companySecondary">
+                            <a href="services.html">Services</a>
+                        </li>
+                        <li class="hover:text-companySecondary">
+                            <a href="whyus.html">Why Us?</a>
+                        </li>
                         
-                        <li class="text-companySecondary">
+                        <li class="hover:text-companySecondary">
                             <a href="contact.html">Contact</a>
                         </li>
                     </ul>
@@ -70,15 +77,21 @@
             <ul id="menu"
                 class="absolute flex-col items-end hidden self-end px-10 py-8 space-y-6 font-bold bg-white/90 text-companyPrimary sm:w-auto sm:self-center left-0 right-0 drop-shadow-md border-t border-gray-300">
                 <li>
-                    <a href="index.html" class="hover:text-companySecondary">Home</a>
+                    <a href="index.html" class="text-companySecondary">Home</a>
                 </li>
-                
+               
                 <li>
                     <a href="about.html" class="hover:text-companySecondary">About</a>
                 </li>
+                <li>
+                    <a href="services.html" class="hover:text-companySecondary">Services</a>
+                </li>
+                <li>
+                    <a href="whyus.html" class="hover:text-companySecondary">Why Us?</a>
+                </li>
                 
                 <li>
-                    <a href="contact.html" class="text-companySecondary">Contact</a>
+                    <a href="contact.html" class="hover:text-companySecondary">Contact</a>
                 </li>
             </ul>
         </div>
@@ -87,7 +100,7 @@
 
     <!-- Page banner -->
     <div class="w-full h-[329px] flex items-center justify-center bg-companyPrimary bg-cover bg-center"
-        style="background-image: url('images/itothya.png'); box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.6);">
+        style="background-image: url('images/hero.jpg'); box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.6);">
         <div class=" flex flex-col items-center justify-center my-8">
             <h1
                 class="text-companySecondary px-6 text-4xl font-bold leading-snug sm:text-[32px] lg:text-[42px] xl:text-[44px]">
@@ -127,7 +140,7 @@
                             </div>
                             <div class="w-full">
                                 <h4 class="mb-1 text-xl font-bold text-slate-700">Visit Us</h4>
-                                <p class="text-base text-slate-400">Pioneer House, 4th floor Suite 407 Moi Avenue, Nairobi</p>
+                                <p class="text-base text-slate-400">Suite 2502, Level 25, 123 Collins Street, Australia</p>
                             </div>
                         </div>
                         <!-- Phone -->
@@ -142,7 +155,7 @@
                             </div>
                             <div class="w-full">
                                 <h4 class="mb-1 text-xl font-bold text-slate-700">Phone Number</h4>
-                                <p class="text-base text-slate-400 select-text">020 64 19 10, 0725 44 49 78, 0736 999 135</p>
+                                <p class="text-base text-slate-400 select-text">+ 61 3 3157 5280, +61 3 9016 7702, +61 2 4356 0085</p>
                             </div>
                         </div>
                         <!-- Email -->
@@ -157,7 +170,7 @@
                             </div>
                             <div class="w-full">
                                 <h4 class="mb-1 text-xl font-bold text-slate-700">Email Address</h4>
-                                <p class="text-base text-slate-400 select-text">itothyaagenciesltd@gmail.com</p>
+                                <p class="text-base text-slate-400 select-text">admin@pinnaclelegal.com</p>
                             </div>
                         </div>
 
@@ -204,16 +217,6 @@
     </section>
     <!-- End Contact Section -->
 
-    <!-- Map Section -->
-    <section id="map" class="bg-slate-100">
-        <div class="w-full google-map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.399148862981!2d36.822016199999996!3d-1.2843909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10e9b09c361d%3A0x42e4a77f3bf89278!2sPioneer%20House%2C%20Moi%20Avenue%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1724674258945!5m2!1sen!2ske"
-                width="100%" height="329" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </section>
-    
     <!-- End Map Section -->
 
 
@@ -251,7 +254,7 @@
                     <!-- Location footer -->
                     <div class="w-auto mt-2">
                         <p class="text-sm font-light text-gray-400">
-                            Pioneer House, 4th floor Suite 407 Moi Avenue, Nairobi
+                            Suite 2502, Level 25, 123 Collins Street, Australia
                         </p>
                         
                     </div>
@@ -259,12 +262,11 @@
                     <div class="w-auto mt-2">
                         <p class="text-sm font-light text-gray-400">
                             <span class="font-bold">Phone: </span>
-                            <span class="select-text">020 64 19 10, 
-                                0725 44 49 78, 0736 999 135</span>
+                            <span class="select-text">+ 61 3 3157 5280, +61 3 9016 7702, +61 2 4356 0085</span>
                         </p>
                         <p class="text-sm font-light text-gray-400">
                             <span class="font-bold">Email: </span>
-                            <span class="select-text">itothyaagenciesltd@gmail.com</span>
+                            <span class="select-text">admin@pinnaclelegal.com</span>
                         </p>
                     </div>
                 </div>
@@ -278,7 +280,7 @@
                     <p class="mt-4 md:mt-0 ml-2 text-sm font-light">Copyright &copy;
                         <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script>
                         <span>
-                            <Span class="text-companySecondary">Itothya General Agencies</Span>.
+                            <Span class="text-companySecondary">Pinnacle Legal Group</Span>.
                             All rights reserved.
                         </span>
                     </p>
