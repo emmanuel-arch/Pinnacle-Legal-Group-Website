@@ -1,98 +1,51 @@
-# Brooks Agencies Website
+# Pinnacle Legal Group Website
 
-Welcome to the **Brooks Agencies Website** repository. This project is a professional website for Brooks Agencies, a company specializing in debt collection and financial investigations.
+This is a responsive, multi-page website built for **Pinnacle Legal Group**, a law firm committed to delivering justice through integrity and professionalism. The site presents the firm’s services, vision, and contact information in a modern, accessible format.
 
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+## 🧾 Project Overview
 
-## Overview
+The website consists of a visually appealing homepage with multiple sections, including a hero banner with image sliders, an "Offers" section outlining the firm's vision, and a "Why Us" section highlighting the firm's core strengths. It features a responsive header with a hamburger menu for mobile devices and a structured footer containing contact and navigation links.
 
-The Brooks Agencies website provides an elegant and user-friendly interface to showcase the company’s vision, services, and contact information. The website includes a **homepage**, an **about page**, and a **contact page**, all designed to be responsive and accessible.
+## 🌐 Pages Included
 
-## Features
+- `index.html`: Homepage with hero image sliders and summary sections.
+- `about.html`: Detailed information about Pinnacle Legal Group.
+- `services.html`: Overview of legal services offered.
+- `whyus.html`: Reasons to choose the firm.
+- `contact.html`: Contact form and firm’s contact information.
 
-- Fully responsive design
-- Navigation menu with dropdown support
-- Hero section with a dynamic background slider
-- Company vision and services section
-- Contact information and social media links
-- Mobile-friendly hamburger menu
+## 🧱 Technologies Used
 
-## Technologies Used
+- **HTML5** and **CSS3** (with utility classes, e.g., TailwindCSS-style classes)
+- **JavaScript** (for interactive features and sliders)
+- **jQuery** (for DOM manipulation)
+- **Google Fonts** (Raleway)
+- **Responsive Design** (Mobile-first approach)
 
-- **HTML5** - Structure of the web pages
-- **CSS3 (Tailwind CSS)** - Styling and layout
-- **JavaScript (jQuery & Alpine.js)** - Interactive elements
-- **Google Fonts (Raleway)** - Custom typography
-- **AJAX CDN** - For jQuery
 
-## Setup Instructions
+## ⚙️ Setup Instructions
 
-### Prerequisites
+1. **Clone the repository** or download the files.
+2. Open `index.html` in your browser to view the homepage.
+3. Make sure the `css`, `js`, and `images` folders are in the same root directory as your HTML files.
+4. No backend or build process is required – it's a fully static website.
 
-Before running the project, ensure you have the following installed:
+## 🖼️ Preview
 
-- A modern web browser (**Chrome, Firefox, Edge, Safari**)
-- A text editor (**VS Code, Sublime Text, Atom, etc.**)
-- A local server (**optional for testing**, e.g., XAMPP, Live Server extension in VS Code)
+The homepage includes:
+- Rotating hero banners
+- Navigation menus (desktop and mobile)
+- Highlight sections for vision and mission
+- Contact details in the footer
 
-### Installation
+## 📬 Contact Information
 
-Clone the repository:
+- **Location**: Donholm
+- **Phone**: +254 758 517 032
+- **Email**: kipletinge123@gmail.com
 
-```sh
-git clone https://github.com/emmanuel-arch/Brooks-Agencies-Website.git
-```
+---
 
-Navigate to the project directory:
+© [Pinnacle Legal Group](mailto:admin@pinnaclelegal.com) – All rights reserved.
 
-```sh
-cd Brooks-Agencies-Website
-```
-
-Open the `index.html` file in a web browser to preview the website.
-
-## Usage
-
-- **Home Page:** Displays the company’s name, logo, and an interactive slider with key information.
-- **About Page:** Provides details about Brooks Agencies, including the company’s vision and mission.
-- **Contact Page:** Offers contact information for clients to reach out.
-
-## Contributing
-
-We welcome contributions! To contribute:
-
-1. Fork the repository.
-2. Create a new branch:
-   ```sh
-   git checkout -b feature-branch
-   ```
-3. Make your changes and commit:
-   ```sh
-   git commit -m 'Added new feature'
-   ```
-4. Push to your fork:
-   ```sh
-   git push origin feature-branch
-   ```
-5. Open a pull request.
-
-## License
-
-This project is licensed under the **MIT License**. See the `LICENSE` file for details.
-
-## Contact
-
-For any inquiries, you can reach us at:
-
-📧 **Email:** admin@brooksagencies.com  
-📍 **Address:** Suite 2502, Level 25, 123 Collins Street, Australia  
-📞 **Phone:** +61 3 3157 5280 / +61 3 9016 7702 / +61 2 4356 0085
 
